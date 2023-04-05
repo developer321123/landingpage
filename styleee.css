@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+.body{
+   background-image: url(./wp7034680.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    margin-left: 50px;
+    margin-top: 15PX;
+    font-weight: 900;
+    float: left;
+    
+}
+nav{
+display: flex;
+width: 84%;
+margin: auto;
+padding: 20px 0px;
+padding-left: 65%;
+align-items:center;
+justify-content: space-between;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+.mainheading{
+    text-align: center;
+    padding: 130px 200px 5px 200px;
+    color:  white;
+    text-align: center;
+
+}
+.subheading{
+    text-align: center;
+    color:white;
+    padding: 5px 200px 5px 200px;
+    font-weight: 900;
+}
+.subheading2{
+    text-align: center;
+    color: white;
+    padding: 5px 200px 5px 200px;
+    font-weight: 900;
+}
+.button{
+    text-align: center;
+    padding: 5px 200px 5px 200px;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 5px;
+    font-weight: bolder;
+    background-color:black;
+    color: white;
+    
+
+}
+
+
